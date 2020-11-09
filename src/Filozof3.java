@@ -16,7 +16,6 @@ public class Filozof3 extends Thread {
 
     public void run() {
         while (true) {
-// myslenie
             System.out.println("Mysle ¦ " + mojNum);
             try {
                 Thread.sleep((long) (5000 * Math.random()));

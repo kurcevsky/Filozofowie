@@ -5,8 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Wybierz rozwiazanie z wykladu(1-3):");
-        Scanner scanner = new Scanner(System.in);
-        int x = scanner.nextInt();
+        Scanner s = new Scanner(System.in);
+        int x = s.nextInt();
 
         if(x == 1) {
             System.out.println("Podaj liczbe filozofow:");

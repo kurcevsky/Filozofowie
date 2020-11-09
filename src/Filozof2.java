@@ -13,7 +13,6 @@ public class Filozof2 extends Thread {
 
     public void run() {
         while (true) {
-// myslenie
             System.out.println("Mysle ¦ " + mojNum);
             try {
                 Thread.sleep((long) (5000 * Math.random()));
@@ -26,7 +25,6 @@ public class Filozof2 extends Thread {
                 widelec[mojNum].acquireUninterruptibly();
                 widelec[(mojNum + 1) % MAX].acquireUninterruptibly();
             }
-// jedzenie
             System.out.println("Zaczyna jesc " + mojNum);
             try {
                 Thread.sleep((long) (3000 * Math.random()));
