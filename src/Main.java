@@ -10,7 +10,7 @@ public class Main {
 
         if(x == 1) {
             System.out.println("Podaj liczbe filozofow:");
-            while (Filozof.MAX < 2 || Filozof.MAX > 100)
+            if(Filozof.MAX < 2 || Filozof.MAX > 100)
             {
                 System.out.println("Podales liczbe spoza przedziału");
                 return;
@@ -24,7 +24,7 @@ public class Main {
         }
         if(x == 2) {
             System.out.println("Podaj liczbe filozofow:");
-            while (Filozof2.MAX < 2 || Filozof2.MAX > 100)
+            if(Filozof2.MAX < 2 || Filozof2.MAX > 100)
             {
                 System.out.println("Podales liczbe spoza przedziału");
                 return;
@@ -38,7 +38,7 @@ public class Main {
         }
         if(x == 3) {
             System.out.println("Podaj liczbe filozofow:");
-            while (Filozof3.MAX < 2 || Filozof3.MAX > 100)
+            if(Filozof3.MAX < 2 || Filozof3.MAX > 100)
             {
                 System.out.println("Podales liczbe spoza przedziału");
                 return;
